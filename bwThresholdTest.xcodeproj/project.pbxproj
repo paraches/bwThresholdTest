@@ -22,7 +22,7 @@
 		B31F067624F86B5C005B28AD /* PBXBuildRule */ = {
 			isa = PBXBuildRule;
 			compilerSpec = com.apple.compilers.proxy.script;
-			filePatterns = "*.cl.metal";
+			filePatterns = "*.ci.metal";
 			fileType = pattern.proxy;
 			inputFiles = (
 			);
@@ -71,6 +71,7 @@
 		B31F063A24F85FC6005B28AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B31F067C24F86F37005B28AD /* MyKernel.ci.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MyKernel.ci.metal; sourceTree = "<group>"; };
 		B31F067E24F86FB6005B28AD /* MyCIFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCIFilter.swift; sourceTree = "<group>"; };
+		B3D44B4E24FCC61A00EEAFBD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		B31F061524F85FC4005B28AD = {
 			isa = PBXGroup;
 			children = (
+				B3D44B4E24FCC61A00EEAFBD /* README.md */,
 				B31F062024F85FC4005B28AD /* bwThresholdTest */,
 				B31F063724F85FC6005B28AD /* bwThresholdTestTests */,
 				B31F061F24F85FC4005B28AD /* Products */,
